@@ -60,7 +60,7 @@ As seguintes transformações são **obrigatórias**:
     - **Tempo médio parado em geocercas** (por tipo: CD, pedágio, posto, cliente)
 
 ### 3. Carga (L)
-- Persistir os dados transformados e as métricas em um **formato estruturado** (Parquet, Delta Lake, PostgreSQL, ou outro de sua escolha).
+- Persistir os dados transformados e as métricas em um **formato estruturado** (Parquet, Delta Lake, PostgreSQL, Elasticsearch ou outro de sua escolha).
 - Organizar a saída em **camadas** (ex: `raw` → `staging` → `trusted/analytics`).
 
 ---
@@ -75,7 +75,7 @@ As seguintes transformações são **obrigatórias**:
 
 ### Livre escolha
 
-- **Formato de saída:** Parquet, Delta Lake, PostgreSQL, DuckDB, etc.
+- **Formato de saída:** Parquet, Delta Lake, PostgreSQL, Elasticsearch, etc.
 - **Orquestração:** Airflow, Prefect, Dagster, scripts agendados, Makefile, etc.
 - **Geoespacial:** Sedona (GeoSpark), GeoPandas, Shapely, H3, ou outra lib de sua preferência.
 
@@ -163,15 +163,11 @@ O candidato será **automaticamente desclassificado** caso:
 ## Entregável
 
 - **Link público do repositório no GitHub** contendo o projeto completo (fork deste repositório).
-- **Prazo final**: **[DATA], às 23:59**.
+- **Prazo final**: Será informado no contato com o candidato.
 
 ### Envio
 
-O link do repositório deve ser enviado por e-mail para os seguintes endereços, **em cópia (todos juntos)**:
-
-- [email_1]
-- [email_2]
-- [email_3]
+O link do repositório deve ser enviado por e-mail para os endereços informados no contato com o candidato.
 
 **Assunto sugerido**: `Teste Técnico — Engenheiro de Dados — [Seu Nome Completo]`
 
@@ -207,6 +203,6 @@ No corpo do e-mail, inclua:
 
 ## Dúvidas
 
-Em caso de dúvidas sobre o teste, entre em contato por [canal de contato] com [nome do responsável].
+Em caso de dúvidas sobre o teste, entre em contato com as pessoas que estão conduzindo o processo seletivo.
 
 Bom desenvolvimento!
